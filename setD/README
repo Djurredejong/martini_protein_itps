@@ -1,0 +1,6 @@
+This is slightly more complicated to implement. In your protein.itp:
+- backbone particles of charged and polar (Arg, Lys, Glu, Asp, Asn, Gln) residues are changed to S-type.
+        Charged beads at charged termini remain normal.
+- polar and charged (P-type and Q-type) beads are changed to p-type.
+- small side chains (Cys, Thr, Ser) are changed to S-type.
+- include the eps035.itp in your topology.

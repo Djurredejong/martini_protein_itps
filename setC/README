@@ -1,0 +1,6 @@
+This set requires a bit more manual work: 
+In your protein.itp:
+- Backbone beads are changed to S-type: P5 becomes SP5, C3 becomes SC3
+        One exception are the Q-type beads for charged termini.
+- Uncharged side chain beads Cysteine, Serine and Lysine are charnged to S-type.
+        The second, charged side chain bead of Lysine remains normal

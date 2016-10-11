@@ -1,0 +1,8 @@
+All interactions between "p-particles" is increased by 0.4 kJ/mol
+compared to normal normal Martini 2.2
+
+Include the file eps04.itp in your topology file (*.top) instead of the
+normal martini_*.itp. In your protein.itp add a "p" to every beadtype
+(e.g. P5 becomes pP5, C3 become pC3, etc).
+The file eps04.itp does not contain a molecule definition for coarse 
+grain water, so you also have to include the water.itp
